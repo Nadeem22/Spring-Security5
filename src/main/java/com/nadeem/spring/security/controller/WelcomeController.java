@@ -1,3 +1,4 @@
+/*
 package com.nadeem.spring.security.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,3 +19,4 @@ public class WelcomeController {
         return "admin";
     }
 }
+*/
