@@ -9,4 +9,12 @@ public class WelcomeController {
     public String getWelcomeMessage(){
         return "Welcome";
     }
+    @GetMapping("/user")
+    public String getUser(){
+        return "user";
+    }
+    @GetMapping("/admin")
+    public String getAdmin(){
+        return "admin";
+    }
 }
